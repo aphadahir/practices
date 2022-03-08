@@ -1,14 +1,13 @@
 public class student
 {
-    int x ;
-    public student(){
-        x= 5;
-
-    }
-    public static void main(String[] orgs){
-        student ob = new student();
-        System.out.println("condstract intailing calling method "+ob.x);
-    }
+  int x;
+  public student(int y){
+      x=y;
+  }
+  public static void main(String[] orgs){
+      student oj = new student(5);
+      System.out.println("this must be "+oj.x);
+  }
 
 }
 
