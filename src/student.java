@@ -1,22 +1,16 @@
 public class student
-    {
-        int x =5;
-         static void myMothod(){
-            System.out.println("this is my world");
-        }
-        public void mymothod2() {
-            System.out.print("this is your world");
-        }
-        public static void main(String[] args){
-            student objs = new student();
-            student objs1 = new student();
-            student objs2 = new student();
-            objs2.x = 6;
-            System.out.println("this is calling object"+" "+objs.x);
-        System.out.println("Hello hargaisa");
-        System.out.println("this is second object "+""+objs1.x);
-        System.out.println("this is changing value of variable"+" "+objs2.x);
-        myMothod();
-         objs.mymothod2();}
+{
+    public void tesla(){
+        System.out.println("my car is going as fast as it can ");
     }
+    public void speed(int max_speed){
+        System.out.println("the speed limit is "+max_speed);
+
+    }
+    public static void main(String[] orgs){
+        student car = new student();
+        car.tesla();
+        car.speed(200);
+    }
+}
 
