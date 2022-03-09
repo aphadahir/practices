@@ -1,15 +1,18 @@
-public class student{
- static void myStaticMothord(){
-     System.out.println("this is my static methord and can acess with out object ");
- }
- public void myPublicMethod(){
-     System.out.println("this is my public method and can only access with object");
- }
 
-    public static void main(String[] orgs){
-     student ob = new student();
-     ob.myPublicMethod();
-     myStaticMothord();
+
+public class student {
+    private String name; // private = restricted access
+
+    // Getter
+    public String getName() {
+        return name;
+    }
+
+    // Setter
+    public void setName(String newName) {
+        this.name = newName;
     }
 }
+
+
 
