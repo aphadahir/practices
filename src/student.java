@@ -1,14 +1,12 @@
 public class student
 {
-int modelyear;
-String model_name;
-public student(int year,String name){
-    modelyear = year;
-    model_name =name;
-}
-public static void main (String[] orgs){
-    student oj = new student(1964,"Mustang");
-    System.out.println("my car is "+oj.model_name+" "+oj.modelyear);
+final int p1 = 20;
+final float p2 =30;
+public static void main(String[] orgs){
+    student ob = new student();
+
+    System.out.println("cant modifiied since its final "+ob.p1);
+    System.out.println("cant modified since its final modifier "+ob.p2);
 }
 
 
